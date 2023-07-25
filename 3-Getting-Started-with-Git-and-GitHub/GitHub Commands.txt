@@ -1,0 +1,13 @@
+
+To Delete a Branch:
+$ git branch -D <branch_name>
+
+To Revert back to a Commit:
+$ git revert <commit_hash>
+
+To Delete a Commit:
+$ git reset --hard <commit_hash>
+
+To push the changes to the remote repository forcibly:
+$ git push origin <branch_name> --force
+
