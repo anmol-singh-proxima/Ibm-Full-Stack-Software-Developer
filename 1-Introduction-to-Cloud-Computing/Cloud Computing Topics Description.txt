@@ -1,0 +1,1160 @@
+
+
+=================================
+======== CLOUD COMPUTING ========
+=================================
+
+Cloud Computing:
+- Cloud computing is the delivery of on-demand computing resources over the internet on a pay-as-you-go basis
+- Resources are dynamically assigned and reassigned among multiple users and scale up and down in response to users’ needs.
+- Cloud has the huge amount of Storage and Computing-Power so it has become the first choice for the following technologies:
+    - Artificial Intelligence
+    - Internet of Things (IoT)
+    - Blockchain
+    - Analytics
+ 
+
+Computing Resources:
+- Networks
+- Servers
+- Storage
+- Applications
+- Services
+
+
+Cloud Model consists of:
+- Essential Characteristics
+    - On-demand Self-Service
+    - Broad Network Access
+    - Resource Pooling
+    - Rapid Elasticity
+    - Measured Service
+- Deployment Models
+    - Public Model
+    - Private Model
+    - Hybrid Model
+- Service Models
+    - Infrastructure (Infrastructure As A Service)
+    - Platform (Platform As A Service)
+    - Application (Software As A Service)
+
+
+Cloud Computing History Factors:
+- Virtual Machine
+- Virtualization
+    - Shared Hosting Environment
+    - Virtual Private Servers
+    - Virtual Dedicated Servers
+- Hypervisor
+    - A hypervisor is a small software layer that enables multiple operating systems to run alongside each other, sharing the same physical computing resources.
+    - Hypervisors also separate virtual machines logically, assigning each its own slice of the underlying computing power, memory and storage, preventing the virtual machines from interfering with each other.
+- Pay-As-You-Go Model
+- Switch from Capital Expense (CapEx) to Operating Expense (OpEx)
+
+
+Key drivers to moving to Cloud:
+- Agility
+- Flexibility
+- Competitiveness
+
+
+Key considerations for working through Cloud strategy:
+- Infrastructure and Workloads
+- Saas and Development Platforms
+- Speed and Productivity
+- Risk Exposure
+
+
+Benefits of Cloud Adoption:
+- Flexibility
+    - Users can scale back or scale up services to fit their needs
+    - Customize Applications
+    - Access cloud services from anywhere
+    - Helps keep data secure using
+        - Virtual Private Cloud
+        - Encryption
+        - API keys
+- Efficiency
+    - Enterprise users can get the applications to market without worrying about underlying infrastructure costs or its maintenance
+    - Cloud-based applications and data are accessible from virtually any internet-connected device
+    - Hardware failures do not result in data loss because of networked backups
+- Strategic Value
+    - Provide innovative technologies while keeping the underlying infrastructure
+
+
+Challenges of Cloud Adoption:
+- Data security, associated with loss or unavailability of data causing business distruption
+- Governance and Sovereignty issue
+- Legal, regulatory and compliance issues
+- Lack of standardization in how the constantly evolving technologies integrate and interoperate
+- Choosing the right deployment and service models to serve the specific needs
+- Partnering with the right cloud service providers
+- Concerns related to the business continuity and disaster recovery
+
+
+Key Cloud Service Providers:
+- Alibaba Cloud (Aliyun)
+- Amazon Web Services (AWS) Cloud
+- Google Cloud Platform (GCP)
+- IBM Cloud
+- Microsoft Azure
+- Oracle Cloud
+- Salesforce
+- SAP
+
+
+Business Case for Cloud Computing:
+- Some case studies that demonstrate the impact businesses have created by adopting cloud:
+    - American Airlines adopting cloud technologies to deliver customer value rapidly across its enterprise
+    - UBank leveraging cloud platform services to give more control to their developers thereby removing barriers to innovation
+    - Bitly leveraging the scalability offered by cloud infrastructure for low-latency delivery to its geographically disbursed enterprise customers
+    - ActivTrades leveraging the infrastructure, storage, network, and security offerings on the cloud to accelerate execution and delivery of new functions in their online trading systems to their customers
+
+
+Emerging Technologies accelerated by Cloud:
+- Emerging technologies, powered by the cloud, are disrupting existing business models and creating unprecedented opportunities for businesses to grow, innovate, and create value for their customers.
+- Some case studies that demonstrate how the use of emerging technologies on the cloud is creating value for millions around the world:
+    - The use of the Internet of Things on the cloud to combat poaching of endangered rhinos in South Africa
+    - Artificial Intelligence on the cloud being leveraged to deliver unique digital experiences to millions of fans around the world by the United States Tennis Association
+    - Blockchain on the cloud helping farmers reduce waste by building traceability and transparency in the food supply chain
+    - The use of data analytics for driving predictive maintenance solutions for a city’s infrastructure by KONE
+
+
+
+======================================
+======== CLOUD SERVICE MODELS ========
+======================================
+
+
+Cloud Service Models:
+- There are three service models of Cloud:
+    - Infrastructure as a Service (IaaS)
+    - Platform as a Service (PaaS)
+    - Software as a Service (Saas)
+- If we take an example of a Car then
+    - Leasing a car can be considered as IaaS where you are bothered about the Car specifications like its color or its model, and you are the one that's driving and you pay for the Petrol or any maintenance
+    - Renting a car can be considered as PaaS where you are not bothered about the specifications of the car, you are driving it and you pay for the Petrol or any maintenance
+    - Getting a taxi or a cab can be considered as SaaS where you are not bothered about anything except the money you pay as charges of taxi.  
+- IaaS Cloud provider manages:
+    - Data Centers
+    - Cooling
+    - Power
+    - Networking and Security
+    - Storage and Services
+- PaaS Cloud provider manages:
+    - All the IaaS services
+    - And the Platform Infrastructure:
+        - Operating systems
+        - Developement Tools
+        - Databases
+        - Analytics
+- SaaS Cloud provider:
+    - Manages all the IaaS services
+    - Manages all the PaaS services
+    - Hosts and manages Application and Data
+
+
+Infrastructure As A Service (IaaS):
+- It provides fundamentals like:
+    - physical data centers - provide the services of physical machines
+    - compute - provide computing power, memory and storage capacity
+    - network - provide network facility via Virtualization or APIs
+    - storage - it provides 3 types of storage: object, file and block
+- It provides all this to consumer on the following basis:
+    - on-demand
+    - over-the-internet
+    - pay-as-you-go
+- Use Cases of Cloud Infrastructure (IaaS):
+    - Test and Developement
+    - Business continuity and Disaster recovery
+    - Faster Deployments and Scaling
+    - High Performance Computing
+    - Big Data Analysis
+- IaaS Concerns:
+    - Lack of transparency in cloud infrastructure configuration and management
+    - Dependence on third party to workload availability
+
+
+Platform As A Service (PaaS):
+- It provides complete platform for applications to:
+    - Develop
+    - Deploy
+    - Run &
+    - Manage
+- It provides:
+    - Servers
+    - Networks
+    - Storage
+    - Operating System
+    - Application Runtime
+    - APIs
+    - Middleware
+    - Database
+- Provider takes responsibility of Installation, Configuration and Operation of the Application Infrastructure
+- Essential Characteristics of PaaS:
+    - High level of Abstraction
+    - Support services and APIs
+    - Run-time environments
+    - Rapid deployment mechanisms
+    - Middleware capabilities
+- Use Cases of PaaS:
+    - API developement and management
+    - Internet of things (IoT)
+    - Business analytics/intelligence
+    - Business Process Management (BPM)
+    - Master Data Management (MDM)
+- Adantages of PaaS:
+    - Scalability
+    - Faster time to market
+    - Greater agility and innovation
+- Risks of PaaS:
+    - Information security threats
+    - Dependency on service provider's infrastructure
+    - Customers lack control over changes in strategy, service offerings, or tools
+
+
+Software As A Service (SaaS):
+- Providers maintains:
+    - Servers
+    - Databases
+    - Application Code
+    - Security
+- Providers manages application's:
+    - Security
+    - Availability
+    - Performance
+- SaaS Supports:
+    - Email and Collaboration
+    - Customer Relationship Management
+    - Human Resource Management
+    - Financial Management
+- Key Characteristics:
+    - Multitenant Architecture
+    - Manage Privileges and Monitor Data
+    - Security, Compliance and Maintenance
+    - Customize Applications
+    - Subscription Model
+    - Scalable Resources
+- Key Benefits
+    - Greatly reduce the time from decision to value
+    - Increase workforce Productivity and Efficiency
+        - Users can access core business apps from anywhere
+        - Buy and deploy apps in minutes
+    - Spread out software costs over time
+- Use Cases:
+    - Reduce on-premises IT infrastructure and capital expenditure
+    - Avoid ongoing upgrades, maintenance and patching
+    - Run applications with minimal input
+    - Manage websites, marketing, sales and operations
+    - Gain resilience and business continuity of cloud provider
+- Concerns:
+    - Data ownership and data safety
+    - Third-party maintains business-critical data
+    - Needs good internet connection
+
+
+
+=========================================
+======== CLOUD DEPLOYMENT MODELS ========
+=========================================
+
+
+Cloud Deployment Models:
+- Deployment models indicates:
+    - Where the infrastructure resides
+    - Who owns and manages it
+    - How cloud resources and services are made available to users
+
+
+Public Cloud:
+- In Public Cloud model, users get access for:
+    - Servers
+    - Storage
+    - Network
+    - Security
+    - Applications
+- These are provided to users as services over-the-internet on the on-demand and pay-as-you-go basis
+- Users can access services and resources via Web consoles and APIs
+- The user does not have any control over the computing environment
+- The cloud provider owns, manages, provisions and maintains the infrastructure
+- The cloud provider bears all the capital, operational and maintenance expenses for the infrastructure and the facilities they are hosted in
+- Characteristics:
+    - It has Virtualized multi-tenant Architecture 
+    - Tenants share the computing resources
+- Benefits:
+    - On-demand resources
+    - Economies of scale
+    - Highly reliable
+- Concerns:
+    - Security
+    - Data Sovereignty compliance
+- Use Cases:
+    - Building and testing applications, and reducing time-to-market for their products and services
+    - Businesses with fluctuating capacity and resourcing needs
+    - Build secondary infrastructure for disaster recovery, data protection and business continuity
+    - Cloud storage and data management services for greater accessibility , easy distribution and backing up their data
+    - IT departments are outsourcing the management of less crtitical and standardised business platforms and applications to Public Cloud providers
+
+
+Private Cloud:
+- It is a cloud infrastructure provisioned for exclusive use by a single organisation comprising multiple consumers.
+- It can be implements in 2 ways:
+    - Internal Infrastructure - on-premises, owned and managed by organisation
+    - External Infrastructure - owned, managed and operated by service provider
+- VPC (Virtual Private Cloud)
+    - An external cloud that offers a private, secure, computing environments in a shared public cloud
+    - It has benefits of Public Cloud
+        - Dynamic Scalability
+        - Cost Efficiency
+        - Self-service
+    - It has Control of Private Cloud
+        - Access
+        - Security
+        - Compliance
+- Benefits:
+    - Cloud services are controlled by Internal IT of the organisation
+    - Reducing cost by using the Cloud along with the already existing infrastructure of the organisation
+    - Better Scalability by using the Public Cloud as and when needed
+    - Controlled Access and Security by customizing it to the organisation's specific needs
+    - Greater agility by expanding this things in a short amount of time
+- Use Cases:
+    - Modernize and unify the in-house & legacy applications
+    - Integrate data & application services from existing applications
+    - Build applications anywhere and move them without comprimising security or compliance
+    -  Full control over critical security & compliance issues within the dedicated cloud
+
+
+Hybrid Cloud:
+- In the Hybrid cloud model, an organization’s on-premise private cloud and third-party, public cloud is connected as a single, flexible infrastructure leveraging the features and benefits of both Public and Private clouds.
+- It provides:
+    - Flexibility by choosing the Cloud for the specific application needs
+    - Workflow moves freely between the Private and Public cloud
+    - Choice of security & regulation features by opting the Private cloud for more sensitive workloads and Public cloud for less sensitive workloads
+- With proper integration and orchestration between the Private and Public clouds, you can leverage both clouds for the same workloads for e.g. you can leverage additional public cloud capacity to accomodate a spike in demand for a private cloud application also known as 'Cloud Bursting'
+- The three tenets of Hybrid Cloud:
+    - Interoperable
+        - The public and private cloud services can understand each other’s APIs, configuration, data formats, and forms of authentication and authorization
+    - Scalable
+    - Portable
+- Types of Hybrid Cloud:
+    - Hybrid Monocloud
+    - Hybrid Multicloud
+    - Composite Multicloud
+- Benefits:
+    - Security and compliance
+    - Scalibility and resilience
+    - Resource optimization
+    - Cost-saving
+- Use Cases:
+    - Software-as-a-service integration
+    - Data & AI integration
+    - Enhancing legacy apps
+    - VMware migration
+
+
+
+=====================================
+======== CLOUD INFRASTRUCURE ========
+=====================================
+
+
+Cloud Infrastructure:
+- Cloud infrastructure consists of data centers, storage, networking components, and compute resources
+- Physical resources are housed in Regions, Availability Zones (AZ) and Data Centers
+- Region consist of more than three AZ
+- AZ consist of one or more Data Centers
+- These AZs are isolated from each other in a Region having their own power, cooling, networking resources
+- Isolation of AZs improves the cloud's fault tolerance, decrease latency, and more
+- These AZs are connected with other AZs, Data Centers and the internet through a very high bandwidth
+- Data Centers contains Pods, Rocks, Server, Storage, and Networking Equipments
+- Computing Resources:
+    - Virtual Servers or VMs (Software based)
+    - Bare-Metal Servers (Physical Servers)
+    - Serverless (Abstraction on VMs)
+- Storage Options
+    - Block Storage
+    - File Storage
+    - Object Storage
+- Networking
+    - Contains physical networking hardware like Routers, Switches.
+    - Several Networking resources are virtualised and made available as services and called as SDN(Software Define Network)
+    - Networking interfaces needs:
+        - IP Addresses
+        - Subnets
+        - Security Group
+        - ACL (Access Control Lists)
+        - VLAN (Virtual LAN)
+        - VPC (Virtual Private Cloud)
+        - VPN (Virtual Private Network)
+    - Resources are virtualised and made available as services:
+        - Firewalls
+        - Load Balancers
+        - Gateways
+        - Traffic Analyzers
+    - Other Networking capability:
+        - CDN (Content Delivery Network)
+
+
+Virtualization:
+- Virtualization is the process of creating a software-based version of physical resources, made possible through the use of hypervisors
+- There are 3 components in Virtualization:
+    - Host - The infrastructure which contains the physical resources like CPU, memory, processor, etc
+    - Hypervisor
+        - The piece of software which enables the process of virtualization on the Host
+        - It manages the physical resources allocated to the VMs
+    - Virtual Machine
+        - It is the software which runs on Hypervisor and acts like a virtual server
+        - It is an independent entity in itself supporting all the features for hosting an OS
+        - It can be transfered from one physical server(Host) to another very easy and quickly in case if any physical server goes down
+- There are 2 kinds of Hypervisor
+    - Type 1 - This directly runs on the Host (physical server) and aka Bare-Metal Servers
+    - Type 2 - This runs on the OS (Host OS) hosted on the Host
+- Benfits:
+    - Cost Savings
+    - Agility and Speed
+    - Lower Downtime
+
+
+Virtual Machines (VMs):
+- These are also known as Virtual Servers, Virtual Instances or Instances
+- User can choose the configurations such as:
+    - Region and Zone
+    - Operating System
+    - Multi-Tenant or Single-Tenant
+    - Billing - Monthly or Hourly
+    - Storage and Networking options
+- The different types of VMs are:
+    - Shared or Public Cloud VMs
+        - These are hosted on a Virtual Server and shared among other users
+        - These are Multi-tenant VMs
+        - Cloud provider provides pre-defined sizes and configurations
+        - Pricing happens by hours or seconds, or sometimes Monthly
+    - Transient or Spot VMs
+        - These VMs take advantage of unused capacity in a cloud data center
+        - These are lower in prices but possess the risk of loosing the data
+        - These VMs can get de-provisioned at any time whenever the cloud infrastructure needs the resources back
+        - These VMs are great for:
+            - non-production work
+            - testing and developing of applications
+            - running stateless workloads
+            - running big data at low cost
+    - Reserved Virtual Instances
+        - These reserve capacity and guarantee resources for future deployments
+        - Reserving capacity terms are 1-year or 3-years making it cheaper
+    - Dedicated Hosts
+        - These are Single-tenant isolation VMs
+        - These let the users make exclusive use of resources
+        - Users need to specify data center and pod
+        - These allows for maximum control over workload
+        - Used for meeting compliance and regulatory requirements or lisencing terms
+
+
+Bare-Metal Servers:
+- A bare-metal server is a single-tenant, dedicated physical server
+- Cloud provider manages the server upto the OS
+- Customer is responsible for administering and managing everything else on the server
+- Bare-metal Configurations:
+    - Processors
+    - RAM
+    - Hard Drives
+    - Specialised Components
+    - OS
+    - GPUs
+- Customers can install their own OS and Hypervisor thus creating their own VMs
+- GPUs can be used for:
+    - Accelerating scientific computation
+    - Data analytics
+    - Rendering professional grade virtualized graphics
+- Characteristics:
+    - Can take longer to provision
+    - Minutes to hours
+    - More expensive than VMs
+    - Only offered by some cloud providers
+- Workloads:
+    - Fully customizable/demanding environments
+    - Dedicated or long-term usage
+    - High Performance Computing (HPC)
+    - Highly secure/isolated environments
+- Example Workloads:
+    - HPC
+    - Big data analytics
+    - GPU-intensive solutions
+    - ERP CRM
+    - AI Deep learning
+    - Virtualization
+- Bare-Metal Servers VS Virtual Servers
+    - Bare-Metal Servers
+        - Work best for CPU and I/O intensive Workloads
+        - Excel with highest performance and security
+        - Satisfy strict compliance requirements
+        - Offer complete flexibility, control and transparency
+        - Come with added management and overhead
+    - Virtual Servers
+        - Rapidly provisioned
+        - Provide an elastic and scalable environment
+        - Low cost to use
+
+
+Securing Network in Cloud:
+- Securing netwoks in cloud from cyber threats is an important job
+- Networking capabilities in the cloud are delivered as a service rather than in the form of rack-mounted devices
+- Cloud Network:
+    - creates logical instances of the networking elements
+    - provides Networking functions as a Service
+    - defines the size of the Network using IP address range
+-  Cloud resources, such as VMs (or VSIs), storage, network connectivity, and load balancers, are deployed into subnets within Virtual Private Clouds (VPCs).
+- Cloud -> Regions -> Virtual Private Clouds -> Zones -> Subnets -> Instances
+- Subnets has ACL which serve as Subnet-level Firewalls
+- Instances has Security Group which serve as firewalls for them
+- These Subnets can be Public and Private
+- Other features in Cloud Network:
+    - Public Gateway and VPN Gateway
+    - Public and Private Load Balancers
+- Building a Cloud Network entails creating a set of logical constructs that deliver networking functionality akin to data center networks for securing environments and ensuring high performing business applications
+
+
+Containers:
+- Containers are an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—desktops, traditional IT, or the cloud.
+- These are small, fast and portable
+- Process of Making a Container:
+    - Create a container manifest consists of metadata related to container
+    - Create an actual image of the application
+    - Finally, create a container
+- Characteristics:
+    - They have an Host OS on physical server like VMs
+    - They do not have Hypervisor, instead they have Runtime Engine (based on container provider)
+    - On Runtime engine, the container contains some libraries along with the application code making it smaller in size in comparison to the VMs where each VM has an Host OS and binaries which increases the file size significantly
+    - If we want to scale our application then we need to add more containers for the application, and since containers are smaller in size so they do not require much space
+    - In VMs, the main issue is of the compatibility of the application code with the VM host-OS and binaries
+- Containers are lighter weight and consume fewer resources than Virtual Machines - helping streamline the development and deployment of cloud native applications.
+
+
+
+===============================
+======== CLOUD STORAGE ========
+===============================
+
+
+Cloud Storage:
+- Cloud Storage is where customers save their data and files in the cloud
+- The data is accessible in two ways:
+    - By attaching the data storage to a computer node
+    - By accessing it on Public or dedicated Private network
+- Cloud providers Host, Secure, Manage and Maintain the cloud storage to ensure the data access
+- The storage also follows pay-per-use method
+- IOPS - Input/Output Operations Per Second
+- Snapshot
+    - A point in time image of the storage
+    - Fast to create
+    - Don't require Downtime
+    - Record only changes to data
+    - Cannot recover individual files
+- Direct Storage
+    - It is also known as Local Storage
+    - It is within the same server or rack
+    - It is fast and generally used for hosting OS
+    - It only lasts as long as the compute resource it attached to
+    - It cannot be shared with other nodes
+    - It is non-resilient to failures
+- File Storage
+    - There is storage which is connected to the computer nodes via an ethernet network
+    - It is slower and lower cost
+    - It can be mounted and used by multiple servers all at once
+- Block Storage
+    - These are provisioned as volumes and mounted on compute node using a high-fiber connection
+    - It is very fast and suitable for Databases
+    - These volumes are mounted to a single compute node at a time
+    - Data is persist in Block Storage i.e. once the instance is deleted the data can stil be there
+    - Snapshots can be created in Block Storage
+- Object Storage
+    - This storage is not attached to servers but is accessible via API
+    - It is slowest in Speed
+    - It is least expensive and infinite in size
+    - It is suitable for all unstructured data types:
+        - Documents
+        - Videos
+        - Logs
+        - Backups
+        - Data from IoT
+        - App binaries
+        - VM images
+
+
+File Storage:
+- Like Direct Attached Storage, File Storage needs to be attached to Compute Node to store data
+- Unlike Direct Attached Storage, File Storage is:
+    - Less Expensive
+    - More Resilient to Failure
+    - Less disk management and maintenance for user
+    - Provision much larger amounts of storage
+- File Storage offer storage in the form of disks or volumes to the Compute Node
+- File Storage is mounted from remote storage appliances
+    - Physical Disks -> Storage Appliances -> Compute Node
+- Storage Appliances are:
+    - Resilient to failure
+    - Offer Encryption
+    - Managed by service provider
+- Ethernet Networks:
+    - File Storage is mounted on Compute Nodes via Ethernet Networks
+    - These Ethernet networks are dedicated to storage
+    - Also known as Network Attached Storage or Network File Storage (NFS)
+    - Speed may vary based on network traffic and it is not consistent so File Storage is used for workloads where consistent speed is not required
+- Multiple Compute Nodes:
+    - File Storage can be mounted onto more than one compute node
+    - All the files can be shared among multiple compute nodes
+    - Common Workloads:
+        - Repository of files
+        - Low cost Database storage
+- Customer can specify IOPS specifications for File Storage
+
+
+Block Storage:
+- Block Storage breaks files into chunks (or blocks) of data
+- It stores each block separately under a unique address
+- It must be attached to a compute node before it can be utilized
+- Features:
+    - Mounted from remote storage appliances
+    - Extremely resilient to failure
+    - Data is more secure (Data Encryption at rest and in transit)
+- It is mounted as a volume at compute nodes using a dedicated network of optical fibres:
+    - Signals move at the speed of light
+    - Higher price-point
+    - Perfect for workloads that need low-latency
+    - Provide consistent high speed
+    - Suitable for Databases and mail servers
+    - Not suitable for shared storage between multiple servers
+- Customer can specify IOPS characteristics and adjust the IOPS as needed based on the requirements
+
+
+Object Storage:
+- Object Storage need not be connected to any compute node to use it
+- It can be used with the help of API (Application Programming Interface)
+- It is less expensive than other storage options
+- Object Storage is effectively infinite
+- In Object Storage, customer does not have to pay for a fix storage rather just the customer consume the storage that he/she require and pay for just that usage
+- It is good for large amount of unstructured and static data
+- Data Storage:
+    - Data in object storage is not stored in any kind of hierarchical folder or directory structure
+    - Data is stored as objects and these objects are stored in buckets
+    - One bucket cannot be stored in another bucket
+    - These buckets have a flat structure of data storage where all the objects are stored directly
+    - These objects have some meta data to contain some details to:
+        - Locate and access Object
+        - The time that the object was stored or last accessed
+    - These buckets have an infinite amount of size
+- Some cloud provider provides 2 kinds of buckets:
+    - Non Resilient
+        - Data is only stored in one Data center
+        - Used in situations where high availability is less of an issue
+    - Resilient
+        - Data is stored multiple times in different Data centers
+        - Usually cost more but provide highest level of resilience and availability
+- Data can be anything like:
+    - Text files
+    - Audio files
+    - Video files
+    - IoT Data
+    - VM images
+    - Backup files
+    - Data Archives
+- It is not suitable for operating systems, databases and data with changing Content
+
+
+Object Storage - Data Tiers & APIs:
+- Object Storage is divided into different Bucket categories called Tiers
+- The tiers in Object Storage are:
+    - Standard Tier - Store objects that are frequently used
+    - Vault/Archive Tier - Store objects that are accessed once or twice a month
+    - Cold Vault Tier - Store objects that are accessed one or twice a year
+- Automatic Archiving Rule - The object will move to a cheaper storage tier if not accessed for long
+- Object Storage - Speed:
+    - Does not come with IOPS options
+    - Slower than file or block storage
+    - Data in Cold Vault can take hours for retrieval
+- Object Storage is priced per GigaByte
+- Application Programming Interface (API):
+    - API helps in accessing the data from Object Storage without using the compute node
+    - Many Object Storage providers have S3 compatible API
+    - It is HTTP based RESTful API or webservers
+- Object Storage - Backup Solutions:
+    - Effective solution for backup and disaster recovery
+    - Replacement for offsite backups
+    - Many backup solutions come with built-in options for object storage in Cloud
+    - More efficient than tape backups for geographical redundancy
+
+
+Content Delivery Network (CDN):
+- It is a Distributed Server Network that delivers temporary stored or cached copies of website content to the users
+- Website is hosted on a server in one geographical location but CDN stores the website contents in the servers of different geographical locations that decreases the distance between the client and the website server
+- Benefits:
+    - Increase the speed of the website
+    - Decrease the load on the website server
+    - Increase the uptime of the server
+    - Increases the security of the server
+
+
+
+========================================
+======== OTHER CLOUD PROPERTIES ========
+========================================
+
+
+Hybrid Multi Cloud
+- Hybrid-Cloud
+    - Computing environment that connects an organization’s on-premise private cloud and third-party public cloud into a single infrastructure for running the organization’s applications
+- Multi-Cloud
+    - Cloud adoption strategy when an organisation uses the services from more than one cloud providers
+    - It helps in leverage the best of the services among different service providers
+- Use Cases:
+    - Cloud Scaling
+        - On-premise private cloud has a limit for taking load on the server
+        - When the load is more, they can leverage the services from cloud providers and when the load is manageable they can rely upon their infrastructure
+        - This process helps in scaling their servers capabilities when in need
+    - Composite Cloud
+        - When an organisation make use of multi-cloud by distributing their delivery service application across multiple cloud environments and providers, spread across multiple geographies
+        - The organisation can individually scale their different servers based on the loads on website in different regions
+    - Modernize
+        - Airline industry uses the on-premise server and their applications are mostly web-apps
+        - When these organisations take their legacy on-premise application to a mobile application using cloud to increase their customer's experiences, they modernize
+        - When they want to add a new recommendation feature for their customers to book new flights when the flight gets delayed, they do modernization
+    - Data and AI
+        - In Airline industry, around 30%, the flights gets delayed because of the unplanned maintenance happened in flights
+        - These organisations can take tons of historical data and feed that data in ML and AI models to predict the happenings of unplanned maintenance
+        - This way they can reduce the number of unplanned maintenance thus reducing the number of delays in flights
+- Using Hybrid Multi Cloud, organisations can prevent lockin to one cloud provider and maintain their workload by dividing it among different cloud providers
+
+
+Microservices:
+- Microservices is an Architecture where a single application is composed of loosely coupled and independent deployable smaller components or services
+- These services have their own stack running on their own containers
+- They communicate with one another over a combination of:
+    - APIs
+    - Event Streaming
+    - Message Brokers
+- For Business, it means:
+    - Multiple developers can work independently on different components of the application making it efficient and less-time consuming
+    - They can use different stacks and runtime environments for different components thus reduce the dependency on one stack
+    -  These components can independently scale instead of the scaling of the entire application thus reduce the cost
+- Illustration:
+    - In an application, the different components can be:
+        - Search
+        - Recommendations
+        - Customer Ratings
+        - Product Catalogue
+    - These components can be developed individually by different teams of developers and then can work together to create a functioning application
+    - These Microservices are distributed using Containers and these containers are plugged into application so if one container has an issue, it can be removed from the application and a new container can be plugged into the application to keep it running
+    - Developers need not write code for these components from scratch thus the developement time is very less which helps in deploying a big application in a matter of days or weeks unlike previous days when they used to take months
+    - Before these components can work together they first search each other by creating a roadmap for all the components, this process is called as Service Discovery
+    - Then they communicate with each other by using API
+
+
+Serverless Computing:
+- Serverless Computing is an approach to computing that offloads the responsibility for common infrastructure management tasks such as
+    - Scaling
+    - Scheduling
+    - Patching
+    - Provisioning
+    to the cloud providers, allowing developers to focus their time and effort on development and testing, and not have to worry about provisioning, maintaining and scaling compute resources.
+- Serverless means the management of the underlying physical or virtual servers is removed from the users
+- Serverless computing environment allocates the resource as needed for the application
+- Attributes that distinguish Serverless Computing:
+    - No provisioning of the servers and runtimes
+    - Runs code on-demand and scaling as needed
+    - Pay only when invoked and used i.e. not when underlying compute resources are idle
+- Serverless:
+    - Abstracts the infrastructure away from developers
+    - Code executed as individual functions
+    - No prior execution context is required
+- Scenario:
+    - There is a front-end and a database of the website
+    - Front-end gets the text file from the user and database store the file
+    - But between them, the text file needs to be translated before storing it into the database
+    - There comes the serverless platform which can take the text file from front-end and do the translation and store it in database
+    - Now, whenever a text file gets uploaded via front-end, the serverless platform will get invoked and perform the necessary operation
+    - But the serverless platform will remain inactive in all other times
+- Determing Fit with Serverless:
+    - Evaluate application characteristics
+    - Ensure that the application is aligned to serverless architecture patterns
+- Application that qualify for a serverless architecture include:
+    - Short-running stateless functions
+    - Seasonal workloads
+    - Production volumetric data
+    - Event-based processing
+    - Stateless Microservices
+- Serverless architectures are well-suited for use cases around:
+    - Data and Event processing
+    - IoT
+    - Microservices (most common)
+    - Mobile backend
+- Use Cases:
+    - Serverless is well-suited to working with the following data:
+        - Text
+        - Audio
+        - Image
+        - Video
+    - Tasks:
+        - Data enrichment
+        - Transformation
+        - Validation and cleansing
+        - PDF processing
+        - Audio normalization
+        - Thumbnail generation
+        - Video transcoding
+        - Data search and processing
+        - Genome processing
+    - Data Streams:
+        - Business
+        - IoT sensor data
+        - Log data
+        - Finanacial market data
+- Challenges:
+    - Workloads characterized by long-running processes
+    - Vendor lockin for the following capabilities:
+        - Authentication
+        - Scaling
+        - Monitoring
+        - Configuration management
+    - Start up from zero to serve a new request
+
+
+Cloud Native Applications:
+- Cloud-native application are the applications:
+    - New applications developed to work only in cloud environment
+    - Existing application refactored and reconfigured with cloud native principles
+- Cloud-native application is build out of several Microservices combined to work as a single application
+- Development principles:
+    - Microservice architecure approach - break down the application to single function Microservices
+    - Rely on Containers - for maximum flexibility, scalibility and portability
+    - Adopt Agile methods - speed up the process based on the improvement process though quick and iterative feedback from users
+- Cloud Native Application Service-Architecture (from bottom to top):
+    - Cloud infrastructure (Public/Private/Enterprise infrastructure, etc)
+    - Scheduling and Orchestration (ex. kubernetes)
+    - Application and Data Services
+    - Application Runtime (traditionally called Middleware)
+    - Application Code
+- Benfits:
+    - Enabling Innovation
+    - Business Agility
+    - Commoditization
+- Any application can be cloud-native application and to leverage the cloud-native architecture, each application should have:
+    - Standardised Logging
+    - Standardised Events
+    - Standardised Catalogue
+- And need to leverage services core to the system like:
+    - Load balancing
+    - Service Discovery
+    - Routing
+- Cloud Native applications are Enterprise and Engineering at scale
+
+
+DevOps on the Cloud:
+- Development Teams need to Design, Develop, Deliver and Run Software
+- Operations Teams need to provide solution to the problem by Monitoring, Predicting failure, Managing environments and Fixing issues.
+- By combining the Development and Operations teams to monitor, analyse and fix the problems become DevOps
+- DevOps is a collaborative approach that allows multiple stackholders to collaborate:
+    - Business owners
+    - Development
+    - Operations
+    - Quality Assurance
+- DevOps Approach:
+    - Applies agile and lean thinking principles to all stakeholders in an organisation who develop, operate or benefit form the business's software systems including cutomers, suppliers and partners.
+    - By extending lean principles across the software supply chain, DevOps capabilities improves productivity through:
+        - Accelerated customer feedback cycles
+        - Unified measurements and collaboration across an enterprise
+        - Reduced overhead, duplication and rework
+    - Using DevOps Approach:
+        - Developers can produce software in short iterations
+        - A continuous delivery schedule of new features and bug fixes in rapid cycles
+        - Business can seize market opportunities
+        - Accelerated customer feedback into products
+- DevOps Process involves:
+    - Continuous Delivery
+    - Continuous Integration
+    - Continuous Deployment
+    - Continuous Monitoring
+    - Delivery pipeline
+- Delivery Pipeline contains following processes in loop:
+    - Ideation
+    - Coding
+    - Building
+    - Deploying
+    - Managing
+    - Continuous improvement
+- DevOps and Cloud:
+    - With its near limitless compute power and available data and application services, cloud computing platforms come with their own risks and Challenges so DevOps provides its
+        - Tools,
+        - Practices and
+        - Processes to tackle these Challenges
+    - DevOps provides the following solutions to Cloud's complexities:
+        - Automated provisioning and installation
+        - Continuous integration and deployment pipelines
+        - Define how people work together and collaborate
+        - Test in low-cost, production-like environments
+        - Recover from disasters by rebuilding systems quickly and reliably
+
+
+Application Modernization:
+- Benefits:
+    - Accelerate digital transformation
+    - Take advantage of new technologies and services
+    - Respond faster to changing market dynamics
+- Applcation Services from Traditional to Modernization:
+    - Architecture   | Monoliths -> Service Oriented Architecture (SOA) -> Microservices
+    - Infrastructure | Physical Servers -> Virtual Machines -> Cloud
+    - Delivery       | Waterfall -> Agile -> DevOps
+
+
+
+=============================================
+======== CLOUD SECURITY & MONITORING ========
+=============================================
+
+
+Cloud Security:
+- Shared Responsibility
+    - For Security on Cloud, it is a shared responsibility between the customer and the cloud provider
+    - Cloud Security is at all the three levels of services provided by the cloud:
+        - IaaS
+        - PaaS
+        - SaaS
+    - In all these three levels, the security is divided among customer and cloud provider based on the responsibility they have for managing the services
+- Architecture
+    - Security on Database level
+        - Build Your Own Key (BTOK)
+        - K Your Own Key (KYOK)
+        - Encryption at-rest, in-motion and in-use
+    - Security at Applcation Level
+        - Application Scanning
+        - Container Image Scanning
+    - Security at User level
+        - Identity (Authentication & Authorization)
+        - Network (Network Access Control)
+        - Prevention against DDOS and Web Attacks
+        - Web (or application) Firewall
+    - In order to protect the Data, you need to manage access
+    - Continuous Security
+        - Gain Insights to check for Posture, Compliance and Threats
+        - Ability to gain visibility or Insights
+        - Having insight to take the turn the Insights to actionable actions or Remmidiate
+- DevOps
+    - The process of DevOps needs to be secure so it becomes SecureDevOps
+    - The process of DevOps is the following in loop:
+        - Design -> Build -> Manage Security
+    - So we need to apply security at each level i.e. Secure Design, Secure Build and so on.
+
+
+Identity and Access Management (IAM):
+- IAM is also known as Access Control
+- It is the 'first line of defense' which allows 'authenticate and authorize users' and 'provide user-specific access'
+- Cloud Security Concerns
+    - Data Loss and Leakage
+    - Unauthorized Access
+    - Insecure interfaces and APIs
+- Main Types of Users
+    - Administrative Users
+        - Administrators | Operators | Managers
+        - Create, update and delete applications and instances
+        - Also need insight into their team member's activities
+    - Developer Users
+        - Application developers | Platform developers | Application publishers
+        - Read sensitive Information
+        - Create, update and delete applications
+    - Application Users
+        - Normal user or Client
+- Authentication & User Identity
+    - IAM authenticates the user on application level based on the following Identity providers:
+        - Cloud directory
+        - Social login
+        - Enterprise Identity provider
+        - Cloud Identity provider
+- Multifactor Authentication
+    - Used to combat Identity theft by adding an additional level of authentication for application users:
+    - These additional authentication levels are:
+        - Single Use Password
+        - Pins
+        - Certificates
+        - Tokens
+        - Risk based
+- Cloud Directory Services
+    - Are used to securely manage user profiles and their associated credentials and password policy inside a cloud environment
+    - Applications hosted on the cloud do not need to use their own user Repository
+- Reporting
+    - Reports helps provide a user-centric view of access to resources or a resource-centric view of access by users
+    - They typically gives the following information:
+        - which users can access which resources
+        - changes in user access rights
+        - access methods used by each user
+- Audit and Compliance
+    - It is a critical service within identity and access management framework, both for cloud provider and cloud consumer
+    - Auditors validate implemented controls against:
+        - Security policy
+        - Industry compliance
+        - Risk policies
+        - Report deviations
+- User and Service access management
+    - Enables cloud application/service owners to provision and de-provision:
+        - Customer profile
+        - Partner profile
+        - Vendor profile
+    - Streamline access control based on:
+        - Role
+        - Organisation
+        - Access policies
+- Mitigating Risks
+    - In order to mitigate the risks of these accounts being hacked into, you require maximum control over the whole life cycle of these users
+    - Some of the controls are:
+        - Provisioning users by specific roles on resources for each user
+        - Password policies for password creation
+        - Multifactor authentication
+        - Immediate de-provisioning of access when users leave or change roles
+- Access Groups
+    - A group of users and service IDs created so that the same access can be assigned to all entities within the group with one or more access policies
+    - Offered by most cloud providers:
+        - Create Access Groups
+        - Add users to Access Groups
+        - Manage access for existing Groups
+    - Benefits
+        - Streamline access assignment process vs assigning individual user access
+        - reduce number of policies
+- Access Policies
+    - Access policies defines how users, service IDs and access groups in the account are given permission to access account resources
+    - Policies include:
+        - Subject - which can be users, serice IDs or access groups
+        - Target - which is the resource or service
+        - Role - the resource to which the access is being granted
+
+
+Cloud Encryption: 
+- It is the last line of defense in a layered security model
+- Features:
+    - Encrypts Data
+    - Provide Data access control
+    - Key Management
+    - Certificate Management
+- Encryption
+    - Encryption is the process of scrambling data in a way that makes it illegible
+    - Two key components in Encryption
+        - Encryption Algorithm - Defines the rules by which data will be transformed
+        - Decryption Key - Defines how encrypted data will be transformed back to legible data
+    - Encryption ensures
+        - Only authorized users have access to sensitive data
+        - When accessed without authorization, data is unreadable and meaningless
+- Cloud Encryption services include
+    - Encryption of sensitive data
+    - End-to-end encryption of all data uploaded to the cloud
+- Data Protection States
+    - Encryption at Rest
+        - Protects strored data
+        - Multiple encryption options
+        - Eg. Database encryption
+    - Encryption in Transit
+        - Protects data while transmitting
+        - Includes encryption before transmission
+        - Authenticates endpoints
+        - Decrypts data on arrival
+        - Eg. Secure Sockets Layer (SSL), Transport Layer Security (TLS)
+    - Encryption in Use
+        - Protects data in use in memory
+        - Allows computation to be performed on encrypted text without decryption
+- Client or Server-side
+    - Server Side
+        - Create and manage your own encryption keys
+        - Generate and manage keys on Cloud
+    - Client Side
+        - Occurs before data is sent to cloud
+        - Cloud providers cannot decrypt hosted data
+- Multi-Cloud Data Encryption
+    - Features:
+        - Data access management
+        - Integrated key management
+        - Sophisticated encryption
+    - Console:
+        - Define and manage access policies
+        - Create, rotate and manage keys
+        - Aggregate access logs
+- Key Management
+    - Encryption does not eliminate security risk
+    - It separates the security risk from the data
+    - Keys needs to be managed and protected against threats
+    - Key Management services enable customers to
+        - Encrypt sensitive data at rest
+        - Easily create and manage the entire lifecycle of cryptographic keys
+        - Protect data from cloud service providers
+    - Best Practices:
+        - Storing encryption keys form the encrypted data
+        - Taking key backups offsite and auditing them regularly
+        - Refreshing the keys periodically
+        - Implementing multi-factor authentication for both the master and recovery keys
+
+
+Cloud Monitoring:
+- To reduce the overhead of monitoring the entire application along with infrastructure, cloud providers provide Cloud Monitoring solutions
+- Features:
+    - Cloud Monitoring Assessment helps in assessing the 
+        - Data,
+        - Application and 
+        - Infrastructure
+        behaviour of 
+        - Performance,
+        - Resource allocation,
+        - Network availability,
+        - Compliance and
+        - Security risks and threats
+    - Cloud Monitoring includes
+        - Strategies,
+        - Practices and
+        - Processes
+        which is used for
+        - Analyzing,
+        - Tracking and
+        - Managing
+        services and apps
+    - It also serves to provide actionable insights that can help improve availability and user experience
+- Cloud Monitoring helps:
+    - Accelerate the diagnosis and resolution of performance incidents
+    - Control the cost of your monitoring infrastructure
+    - Mitigate the impact of abnormal situations with proactive notifications
+    - Get critical kubernetes and container insights for dynamic microservice monitoring
+    - Troubleshoot your applications and infrastructure
+- Cloud Monitoring Solution provides:
+    - Data in real-time with round the clock monitoring of VMs, services, databases, apps
+    - Multilayer visibility into application, user, and file access behaviour across all apps
+    - Advanced reporting and auditing capabilities for ensuring regulatory standards
+    - Large-scale performance monitoring integrations across multicloud and hybrid cloud
+- Categories:
+    - Infrastructure
+        - Help identify minor and large-scale failures
+        - So that developers can take corrective action
+    - Database
+        - Help track processes, queries and availability of services
+        - To endure accuracy and reliability of database
+    - Applcation Performance Monitoring
+        - Help improve user experience
+        - Meet app and user SLAs (Service Level Agreements)
+        - Minimize Downtime
+        - Lower operational cost
+- Best Practices:
+    - Leverage end-user experience monitoring solutions
+    - Move all aspects of infrastructure under one monitoring program
+    - Use monitoring tools that help track usage and cost
+    - Increase cloud monitoring automation
+    - Simulate outrages and breach scenarios
+- There needs to be active monitoring of all connected systems and cloud-based services to maintain visibility of all data exchanges between public, private, and hybrid cloud environments. This ensures that the cloud provides a trusted platform that can securely integrate with your enterprise data centers.
+
+
+Cloud Computing Use Cases:
+- Businesses all over the world are realizing tangible benefits from the use of cloud technologies and services:
+    - The Weather Company migrating to the cloud to reliably deliver critical weather data at high speed, especially during major weather events such as hurricanes and tornadoes
+    - American Airlines using the cloud platform and technologies to deliver digital self-service tools and customer value more rapidly across its enterprise
+    - Cementos Pacasmayo achieving operational excellence and insight to help drive strategic transformation and reach new markets using cloud services
+    - Welch choosing cloud storage to drive business value from hybrid cloud
+    - LiquidPower using cloud-based SAP applications to fuel business growth 
+
+
+Cloud Computing Job Roles:
+- Cloud Developers
+- Cloud Integration Specialists
+- Cloud Data Engineers
+- Cloud Security Engineers
+- Cloud DevOps Engineers
+- Cloud Solutions Architects
