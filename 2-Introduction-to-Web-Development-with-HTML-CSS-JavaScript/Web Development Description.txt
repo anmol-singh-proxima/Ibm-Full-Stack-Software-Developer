@@ -1,0 +1,314 @@
+
+=========================================================
+======== Introduction to Application Development ========
+=========================================================
+
+
+Application Development Tools:
+- Version Control
+    - Git
+    - GitHub
+- Libraries
+    - Can be used as a subroutine to perform a certain feature or functionality 
+    - Email-validator
+    - Apache Commons Proper
+- Frameworks
+    - Decide the structure of the code or application
+    - Angular
+    - Vue
+    - Django
+- CI/CD
+    - Continuous Integration / Continuous Delivery
+    - Continuous Integration / Continuous Deployment
+- Build Tools
+    - Transform source code into binaries for installation
+    - It alos automate many tasks
+    - Initiate a build from the command line or from an IDE
+    - Two categories:
+        - Build-automation utilities
+        - Build-automation servers
+    - Examples:
+        - Webpack - module bundler for JavaScript
+        - Babel - JavaScript Compiler
+        - Web Assembly - Binary instruction format in Browser
+- Packages
+    - Packages make apps easy to install
+    - Packages contain:
+        - App files
+        - Instructions for installation
+        - Metadata
+- Package Managers
+    - Make working with Packages easier
+    - Verify checksums and digital certificates to ensure the integrity and authenticity of the packages
+    - Manage dependencies for packages
+    - Examples: npm, gradle, maven, pip, conda
+
+
+HTML5 API:
+- Geolocation API
+- Drag and Drop API
+
+
+Summary:
+- Front-end developers work on the parts of the website or app that the user sees and interact with.
+- Back-end developers work on the logic and functionality that keeps the website or app running and responding to users’ inputs.
+- Full-stack developers have both sets of skills.
+- Front-end developers and back-end developers work closely together.
+- Frameworks and libraries extend the functionality of coding languages such as JavaScript and Python.
+- Common languages for front-end development include: HTML, CSS, and JavaScript.
+- Common languages and frameworks for back-end development include: Python, Django, and Flask.
+- Version control systems keep track of changes and resolve conflicts between them.
+- CI/CD (Continuous Integration with Continuous Delivery/Deployment) is a best practice developers use to deliver frequent changes reliably.
+
+
+Glossary:
+- AngularJS
+    - An open-source JavaScript framework for dynamic web applications
+- Application Programming Interface (API)
+    - Code that allows two software programs to communicate with each other.
+- Build Automation
+    - Allow you to download dependencies, compile code, package binary code, run tests, deploy to production.
+- Build Automation Servers
+    - Execute build-automation utilities on a scheduled or triggered basis.
+- Build Automation Utilities
+    - Generate executables by compiling and linking code.
+- CI/CD
+    - A method for releasing code and integrating it into code that has already been developed in order to prevent the application from breaking throughout the app’s lifecycle.
+- Django
+    - A framework for Python web development.
+- Dynamic Content
+    - Data that is created each time a request is sent to a server.
+- Endpoint
+    - The point at which an API connects with the software program.
+- Frameworks
+    - Provide a standard way to build an application.
+    - Frameworks dictate architecture and program flow.
+- IDE
+    - "Integrated Development Environment" Helps create and manage code.
+- Inversion of Control
+    - A predefined workflow where the developer is not in full control of how the application operates.
+- JavaScript Framework
+    - An application framework written in JavaScript to create responsive sites.
+- LESS
+    - "Learner Style Sheets" add more style and functions to CSS.
+- less.js
+    - A JavaScript tool that converts LESS styles to CSS.
+- Libraries
+    - Reusable collections of code
+- Opinionated
+    - Frameworks that have a lot of control are sometimes considered "opinionated".
+- Package Managers
+    - Coordinate with file archivers to extract packages.
+    - Verify check sums and digital certificates.
+    - Locate, download, and install updates of existing software from a repository as well as manage dependencies.
+    - Common package managers include the following:
+        - Debian Package Management System (DPMS)
+        - Red Hat - Package Manager for Linux
+        - Chocolatery for Windows
+        - Homebrew and MacPorts for MacOS
+- Packages
+    - Archive files that include
+        - app files
+        - instructions for installation
+        - metadata
+- React.js
+    - A JavaScript framework developed by Facebook that helps build and drop elements onto a page.
+- Responsive Design
+    - Design technique that automatically resizes a display to adapt to a specific screen size.
+- Route
+    - Allows front-end client to plug into correct socket on the backend. They are the paths that network traffic takes from a virtual machine (VM) instance to other destinations.
+- SASS
+    - "Syntactically Awesome Stylesheets" are an extension of CSS.
+- Static Content
+    - A display of data that has been previously stored on a server.
+- Version Control
+    - Allows you to revert to earlier versions of code, resolves conflicts between the same files, and split and merge different code branches.
+- Vue.js
+    - A community-based JavaScript framework focused on UI. Includes UI components such as buttons and other visual elements, and is both a library and a framework.
+
+
+
+======================================
+======== Introduction to HTML ========
+======================================
+
+
+Types of Documents:
+- HTML / HTML5
+- XML
+- XHTML
+
+DOM Tree
+- Document Object Model
+- It is an in-memory representation of a document
+- Contains nodes that define the document type and structure:
+    - Headers and paragraphs
+    - Text nodes
+    - Comment nodes
+
+
+Document Object Properties (Accessor of DOM):
+- document.head
+- document.title
+- document.images
+- document.lastModified
+- document.scripts
+- document.getElementById('#id')
+- document.getELementsByTag('tag')
+- document.open()
+- document.write()
+- document.close()
+
+
+HTML5 Built-in new features:
+- New input fields
+- Virtual keyboard layouts and built-in data validation
+- Native video support
+
+
+Summary:
+- HTML provides the basic structure and content for a website using tags.
+- Tags represent the elements of an HTML page.
+- The HTML DOM Tree describes how a website is structured.
+- HTML uses APIs to enhance the user experience, providing features for advanced animation, audio, and video.
+- Scripting provides a more interactive user experience when browsing websites.
+- It is recommended to not rely on scripting as it can be disabled.
+- HTML5 sandboxes help manage iframe mashups.
+- HTML5 Browser Support Tables describe which browsers support which HTML5 features.
+- JavaScript is used to check if an element is supported by a browser.
+- CSS provides consistent style and design throughout the website.
+- There are two types of CSS layouts to design websites: fluid and fixed.
+- HTML5 introduced Web Workers which provides a way to run other, processing intensive tasks without blocking the main JavaScript code or the user interface.
+
+
+Glossary:
+- DOM Tree
+    - "Document Object Model" is the data representation of the objects that comprise the structure and content of a document on the web.
+- XML
+    - An "eXtensible Markup Language" Designed to store and transport data allowing users to define their own markup languages, primarily to displaydocuments on the web.
+- XHTML
+    - An "eXtensible Hypertext Markup Language" similar to HTML but with stricter formatting rules.
+- Web Storage APIs
+    - APIs that allow data storage in a browser.
+    - Example: localStorage & sessionStorage
+
+
+
+=====================================
+======== Introduction to CSS ========
+=====================================
+
+
+Cascading Style Sheet (CSS):
+- It provides the design to the HTML page by applying design to each element
+- CSS Design is separate from data:
+    - Design can be removed from special accessibility renders
+    - Search engines can index the website without the design interfering
+- 2 Types of Layouts:
+    - Fluid Layout:
+        - The height and width are flexible
+        - Content/element size changes according to the screen size
+        - Specify elements using em or percentage
+    - Fixed Layout:
+        - The height and width are fixed
+        - Content/element size does not changes according to the screen size
+        - Specify elements using pixels
+- Applying CSS to HTML:
+    - Inline CSS
+    - Internal CSS
+    - External CSS
+    - Priority of CSS: Inline > Internal > External
+- Types of CSS Frameworks:
+    - Plain (Vanilla) CSS
+    - Utility-first CSS
+        - Ex: Tailwind CSS
+    - Component CSS
+        - Ex: Bootstrap
+
+
+Summary:
+- CSS creates a uniform look throughout each element of each page of the website.
+- CSS is usually coded in external style sheets and creates base styles for a website.
+- CSS frameworks assists in implementing UI elements and creating dynamic web pages.
+- CSS has two types of frameworks:
+    - Utility-first frameworks, which provide utility classes to help in building one's own styles and layouts.
+    - Component frameworks, which provide a wide selection of pre-styled components and templates that can be implemented onto a website.
+- Plain (Vanilla) CSS lets developers write the styles and layouts of a website.
+- HTML5 elements provide structure and function to websites.
+- HTML5 uses the <input> tag to allow users to input information.
+
+
+
+============================================
+======== Introduction to JavaScript ========
+============================================
+
+
+JavaScript:
+- AJAX (Asynchronous JavaScript and XML)
+- Data Types in JavaScript:
+    - number (Number)
+    - string (String)
+    - boolean (Boolean)
+    - null
+    - undefined
+    - date
+    - array
+    - object
+- All Numbers in JavaScript are respresented as double precision or 16-bit floating point number
+- Wrapper classes methods:
+    - toString()
+    - valueOf()
+- Arrays are defined by using:
+    - array literal
+        Ex: arr = ['apple', 'mango', 'orange'];
+    - array constructor
+        Ex: arr = new array(0, 1, 2, 3);
+- Error object
+    - Used to create an error object instance when an exception is thrown
+    - Properties of an error
+        - message
+        - name
+    - Ex: throw new Error("the error message");
+
+
+Prototypes and Objects:
+- Prototypes define properties and methods for all the instances of the object
+- Prototypes are like Classes in other programming languages
+- Objects are the instances of these Prototypes
+- Prototypes are basically functions in JavaScript
+- They have access to 'this' keyword
+- An object is create using 'new' operator
+
+
+Document Object Model (DOM) API:
+- The Document Object Model (DOM) API is one of the most basic JavaScript APIs available.
+- It connects web pages to scripts by representing the structure of a document (e.g. an HTML web page) in memory, making it accessible for modfication as required.
+- DOM Model contains a window object which contains the below objects:
+    - History
+    - Location
+    - Navigator
+    - Screen
+    - Document
+- DOM contains all the elements of the web page under Document object and it contains 2 kinds of Nodes:
+    - Element nodes
+    - Text nodes
+- Window object has 3 functions:
+    - window.alert()
+    - window.confirm()
+    - window.prompt()
+
+
+Summary:
+- JavaScript is a scripting language that enables developers to add dynamic content to webpages.
+- JavaScript variables are declared using the var keyword and take their type from the value assigned.
+- Program execution is controlled by statements like If…Then…Else, Switch, For loops, and While loops.
+- JavaScript uses blocks of code, called functions, that can be called from anywhere in the script.
+- New methods and properties can be added to an object by modifying the prototype for that object.
+- Prototypes allow you to define properties and methods for all instances of a specific object.
+- Client-side scripts are programs that accompany HTML documents and are used by developers to incorporate more interactive elements.
+- The script tag can incorporate a script within an HTML document or call a script from an external file.
+- The Document Object Model (DOM) is the programming interface between HTML or XHTML and JavaScript.
+- Developers can access HTML DOM elements from JavaScript scripts using the correct DOM notation.
+- APIs are often used to access HTML DOM elements in web pages.
+
