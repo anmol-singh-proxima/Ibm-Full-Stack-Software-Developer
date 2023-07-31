@@ -1,0 +1,28 @@
+Final Project:
+
+1. URL of the repository:
+https://github.com/anmol-singh-proxima/github-final-project
+
+2. URL of License File:
+https://github.com/anmol-singh-proxima/github-final-project/blob/main/LICENSE
+
+3. URL of README.md file:
+https://github.com/anmol-singh-proxima/github-final-project/blob/main/README.md
+
+4.  URL of CODE_OF_CONDUCT.md file:
+https://github.com/anmol-singh-proxima/github-final-project/blob/main/CODE_OF_CONDUCT.md
+
+5. URL of CONTRIBUTING.md file:
+https://github.com/anmol-singh-proxima/github-final-project/blob/main/CONTRIBUTING.md
+
+6. URL of simple-interest.sh file:
+https://github.com/anmol-singh-proxima/github-final-project/blob/main/simple-interest.sh
+
+7. URL of the forked repository:
+https://github.com/anmol-singh-proxima/jbbmo-Introduction-to-Git-and-GitHub
+
+8. URL of Pull Request:
+https://github.com/ibm-developer-skills-network/jbbmo-Introduction-to-Git-and-GitHub/pull/17741
+
+9. URL of 2nd Pull Request:
+https://github.com/ibm-developer-skills-network/jbbmo-Introduction-to-Git-and-GitHub/pull/17743
