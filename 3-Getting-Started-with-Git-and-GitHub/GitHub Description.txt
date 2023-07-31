@@ -16,3 +16,10 @@
     - GitLab
     - Bitbucket
     - beanstalk
+
+- GitHub Projects:
+    - Large projects include people working in different roles:
+        - Developer – creates code
+        - Integrator – manages changes made by developers
+        - Repository Administrator – configures and maintains access to the repository
+    - Each role uses git commands
