@@ -1,0 +1,81 @@
+=======================================
+======== Introduction to React ========
+=======================================
+
+
+React:
+- React is an efficient, flexible Javascript library for building UI
+- A React application is a tree of components and an extension of the HTML DOM
+- It uses special markup language called JSX (Javascript XML)
+- This JSX is compiled and interpreted as Javascript by Babel
+- Packages used in React Component:
+    - React
+    - ReactDOM
+    - Babel
+- ECMAScript 6 (ES6) Features:
+    - let and const for variable declaration
+    - Arrow functions
+    - Promise
+    - Class
+- Inheritance is used in React Components
+
+
+Typescript:
+- There are several advantages to using TypeScript rather than JavaScript in your React application and possibly a few drawbacks. Regarding advantages: 
+    - TypeScript makes it easy to define Prop types in React. This makes writing code with an IDE that supports code completion a breeze since the IDE automatically populates the Prop type.
+    - Most common third-party libraries support TypeScript definitions.
+    - As mentioned, TypeScript has static type-checking, which enables you to help identify errors earlier in the development process.
+    - Refactoring code becomes easier since types are known.
+    - There will be fewer “undefined” errors at run-time due to type-checking at compile time.
+    - Code is easier to read and maintain than JavaScript due to typed variables.
+    - You can still write JavaScript and use the TypeScript compiler.
+- There are also possibly a few challenges with using TypeScript rather than JavaScript for React applications:
+    - There is a learning curve
+    - Compilation takes a little longer than using Babel with JSX
+    - Third-party libraries could be missing Type definitions, though this is rare because TypeScript has grown very popular
+
+
+Components:
+- Working of Components:
+    - Properties
+    - Events
+    - State
+- Types of Components:
+    - Functional
+    - Class
+    - Pure
+    - High Order
+
+State:
+- 2 types of State in React:
+    - Shared State
+    - Local State
+
+Component Lifecycle Phases:
+- Mounting
+- Updating
+- Unmounting
+
+Phases of React Component Testing:
+- Arrange
+- Act
+- Assert
+
+
+
+React Redux:
+- The store management with redux has 3 main components:
+    - Actions - These are blocks of information that send data from your application to your store. Actions must have a type property that indicates the type of action being performed.
+    - Reducers - Reducers specify how the application’s state changes in response to actions sent to the store.
+    - Store - The Store is the object that brings the action and reducer together. The store has the following responsibilities: holds application state, allows access to state, allows state to be updated via dispatch(action).
+
+
+
+Hooks and Redux:
+- Hooks provide a way to use functionalities such as context or state, without classes.
+- Inputs in React can be one of two types: controlled or uncontrolled.
+- Redux is a state management library that is often used with React to handle the state of your application.
+- The Redux elements that are involved in updating the component properties are action, store, and reducer.
+- You can interact with asynchronous data in your React Redux app using middleware.
+- The data flow in the React-Redux application is unidirectional.
+

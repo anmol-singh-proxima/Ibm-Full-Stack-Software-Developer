@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.increase-btn, .decrease-btn {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  padding: 2px 12px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.increase-btn {
+  background-color: green;
+}
+
+.decrease-btn {
+  background-color: red;
+}
